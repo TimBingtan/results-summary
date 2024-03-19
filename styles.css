@@ -10,7 +10,22 @@ body {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
+
 /* .summary {
 
 } */
 
+
+
+
+.stat {
+    font-weight: bold;
+}
+
+.stat {
+    color: #adb5bd;
+}
+
+span {
+    color: #212121;
+}
