@@ -6,6 +6,14 @@ body {
     min-height: 100vh; 
 }
 
+.title,.stat, .brief, .total{
+    color: #adb5bd;
+}
+
+.score, .description {
+    color: hsl(0, 0%, 100%); 
+}
+
 .result {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     text-align: center;
@@ -26,20 +34,42 @@ body {
 } */
 
 
-
-
 .stat {
     font-weight: bold;
 }
 
-.stat {
-    color: #adb5bd;
-}
+/* .stat {
+    
+} */
 
 span {
     color: #212121;
 }
 
+.reaction {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    color: hsl(234, 85%, 45%);
+}
+
+.reaction, .memory, .verbal, .visual {
+    font-weight: bold;
+}
+
+
+
 .button {
     text-align: center;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
 }
