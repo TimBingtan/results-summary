@@ -19,6 +19,8 @@ body {
     text-align: center;
     display: grid;
     place-items: center;
+    height: 449px;
+    width: 322px;
 }
 
 .circle {
@@ -29,13 +31,15 @@ body {
 }
 
 
-/* .summary {
-
-} */
+.summary {
+    height: 449px;
+    width: 322px;
+} 
 
 
 .stat {
     font-weight: bold;
+    padding-top: 0;
 }
 
 /* .stat {
