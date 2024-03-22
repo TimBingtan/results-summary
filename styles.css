@@ -21,6 +21,7 @@ body {
     place-items: center;
     height: 449px;
     width: 322px;
+    border-radius: 1.7rem;
 }
 
 .circle {
@@ -34,18 +35,30 @@ body {
     height: 409px;
     width: 242px;
     padding: 20px 40px;
+    box-shadow: 7px 7px 7px 7px hsl(224, 30%, 27%);
+    border-top-right-radius: 1.7rem;
+    border-bottom-right-radius: 1.7rem;
+    border: none;
 } 
 
+.cluster {
+    display: inline-block;
+}
+
+/* .icon {
+
+} */
 
 .stat {
     font-weight: bold;
     padding-top: 0;
-    display: inline-block;
 }
 
-/* .stat {
-    
-} */
+.row {
+    display: flex;
+    justify-content: space-between;
+} 
+
 
 span {
     color: #212121;
