@@ -33,12 +33,16 @@ body {
 
 .summary {
     height: 409px;
-    width: 242px;
-    padding: 20px 40px;
-    box-shadow: 7px 7px 7px 7px hsl(224, 30%, 27%);
+    width: 252px;
+    padding: 20px 40px 20px 60px;
+    box-shadow: 4px 4px 4px 2px hsl(224, 30%, 27%);
     border-top-right-radius: 1.7rem;
     border-bottom-right-radius: 1.7rem;
     border: none;
+    margin-left: -20px;
+    /*Fix padding */
+    z-index: -1;
+
 } 
 
 .cluster {
