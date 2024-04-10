@@ -27,8 +27,18 @@ body {
 .circle {
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.score {
+    font-size: 70px;
+    margin-bottom: 0;
+    margin-top: 45px;
+}
+
+.total {
+    margin-top: 0;
 }
 
 .summary {
@@ -42,7 +52,6 @@ body {
     margin-left: -20px;
     /*Fix padding */
     z-index: -1;
-
 } 
 
 .cluster {
