@@ -55,12 +55,13 @@ body {
 } 
 
 .cluster {
-    display: inline-block;
+    display: flex;
 }
 
-/* .icon {
-
-} */
+.icon {
+    padding-right: 10px;
+    margin: 0 auto;
+} 
 
 .stat {
     font-weight: bold;
@@ -72,6 +73,8 @@ body {
     justify-content: space-between;
     margin-bottom: 0.75rem;
     border-radius: 0.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
 } 
 
 
