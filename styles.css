@@ -59,7 +59,7 @@ body {
     height: 409px;
     width: 252px;
     padding: 20px 40px 20px 60px;
-    box-shadow: 4px 4px 4px 2px hsl(224, 30%, 27%);
+    box-shadow: 7px 7px 5px 5px hsla(224, 90%, 80%, 12%);
     border-top-right-radius: 1.7rem;
     border-bottom-right-radius: 1.7rem;
     border: none;
